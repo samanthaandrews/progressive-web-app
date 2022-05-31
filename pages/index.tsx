@@ -42,6 +42,24 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <iframe sandbox='allow-same-origin' srcDoc='
+        <!doctype html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>A Basic HTML5 Template</title>
+
+            <link rel="stylesheet" href="/test.css">
+
+          </head>
+
+          <body>
+            <h1>This text should be red</h1>
+          </body>
+        </html>
+        '></iframe>
       </main>
 
       <footer className={styles.footer}>
